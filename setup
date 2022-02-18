@@ -1,0 +1,4 @@
+#!/bin/sh
+
+curl --remote-name https://raw.githubusercontent.com/dcyoung-dev/laptop-setup/main/laptop_local --output ~/.laptop.local
+curl --remote-name https://raw.githubusercontent.com/dcyoung-dev/laptop/main/mac

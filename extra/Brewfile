@@ -1,0 +1,53 @@
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/cask-fonts"
+tap "homebrew/core"
+tap "homebrew/services"
+
+brew "ffmpeg"
+brew "jq"
+brew "neovim"
+brew "postgresql", restart_service: true
+brew "redis", restart_service: true
+brew "shellcheck"
+brew "ssh-copy-id"
+brew "zsh"
+brew "zsh-autosuggestions"
+brew "zsh-syntax-highlighting"
+
+# COMMS
+cask "microsoft-teams"
+cask "tuple"
+cask "zoom"
+
+# BROWSERS
+cask "firefox"
+cask "google-chrome"
+
+# FONTS
+cask "font-fira-code"
+cask "font-fontawesome"
+
+# EDITORS
+cask "jetbrains-toolbox"
+cask "visual-studio-code"
+
+# PRODUCTIVITY
+cask "meetingbar"
+cask "notion"
+cask "obsidian"
+
+# UTILS
+cask "1password"
+cask "adobe-acrobat-reader"
+cask "alfred"
+cask "caffeine"
+cask "grammarly"
+cask "krisp"
+cask "ngrok"
+cask "rectangle"
+cask "rocket"
+cask "spotify"
+cask "suspicious-package"
+cask "the-unarchiver"
+
