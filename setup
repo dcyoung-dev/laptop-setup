@@ -1,6 +1,6 @@
 #!/bin/sh
 
-curl --remote-name https://raw.githubusercontent.com/dcyoung-dev/laptop-setup/main/laptop_local --output ~/.laptop.local
+curl https://raw.githubusercontent.com/dcyoung-dev/laptop-setup/main/laptop_local --output ~/.laptop.local
 
 curl -s https://raw.githubusercontent.com/dcyoung-dev/laptop/main/mac | sh 2>&1 | tee ~/laptop.log
 
