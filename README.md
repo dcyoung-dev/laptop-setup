@@ -2,7 +2,7 @@
 
 ## Getting Started
 ```shell
-sh <(curl -s https://raw.githubusercontent.com/dcyoung-dev/laptop-setup/main/setup)
+curl -s https://raw.githubusercontent.com/dcyoung-dev/laptop-setup/main/setup | sh
 ```
 
 ## What does it do?
