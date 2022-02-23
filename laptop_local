@@ -55,7 +55,6 @@ EOF
 
 fancy_echo "Cleaning up old Homebrew formulae ..."
 brew cleanup
-brew cleanup --cask
 
 fancy_echo "Adding foreman gem"
 gem_install_or_update "foreman"
