@@ -11,5 +11,9 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-      - name: Build
+      - name: Copy
         run: curl --remote-name https://raw.githubusercontent.com/dcyoung-dev/laptop-setup/main/setup
+      - name: Run
+        run: sh setup 2>&1 | tee ~/laptop.log
+      - name: Check
+        run: asdf --version

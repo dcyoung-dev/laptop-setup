@@ -1,5 +1,5 @@
 #!/bin/sh
 
 curl --remote-name https://raw.githubusercontent.com/dcyoung-dev/laptop-setup/main/laptop_local --output ~/.laptop.local
-curl --remote-name https://raw.githubusercontent.com/dcyoung-dev/laptop/main/mac
-curl --remote-name https://raw.githubusercontent.com/dcyoung-dev/mac-setup/master/config/macos.sh
+sh <(curl -s https://raw.githubusercontent.com/dcyoung-dev/laptop/main/mac)
+sh <(curl -s https://raw.githubusercontent.com/dcyoung-dev/mac-setup/master/config/macos.sh)
