@@ -2,7 +2,7 @@
 
 ## Getting Started
 ```shell
-curl --remote-name https://raw.githubusercontent.com/dcyoung-dev/laptop-setup/main/setup
+sh <(curl -s https://raw.githubusercontent.com/dcyoung-dev/laptop-setup/main/setup)
 ```
 
 ## What does it do?
