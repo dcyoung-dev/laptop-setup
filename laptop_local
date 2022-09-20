@@ -62,10 +62,10 @@ fancy_echo "Adding foreman gem"
 gem_install_or_update "foreman"
 
 fancy_echo "Cloning thoughtbot dotfiles"
-git clone git://github.com/thoughtbot/dotfiles.git ~/dotfiles
+git clone https://github.com/thoughtbot/dotfiles.git ~/dotfiles
 
 fancy_echo "Cloning personal dotfiles"
-git clone git://github.com/dcyoung-dev/dotfiles-local.git ~/dotfiles-local
+git clone https://github.com/dcyoung-dev/dotfiles-local.git ~/dotfiles-local
 env RCRC=$HOME/dotfiles/rcrc rcup
 
 if [ -r "$HOME/.rcrc" ]; then
