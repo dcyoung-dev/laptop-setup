@@ -18,8 +18,8 @@ brew "zsh-syntax-highlighting"
 
 # COMMS
 cask "microsoft-teams"
+cask "microsoft-outlook"
 cask "tuple"
-cask "zoom"
 
 # BROWSERS
 cask "firefox"
@@ -34,17 +34,19 @@ cask "jetbrains-toolbox"
 cask "visual-studio-code"
 
 # PRODUCTIVITY
+cask "raycast"
 cask "meetingbar"
 cask "notion"
 cask "obsidian"
+cask "warp"
 
 # UTILS
 cask "1password"
 cask "adobe-acrobat-reader"
-cask "alfred"
 cask "caffeine"
 cask "grammarly"
 cask "krisp"
+cask "loom"
 cask "ngrok"
 cask "rectangle"
 cask "rocket"
