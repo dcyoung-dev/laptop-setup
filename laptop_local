@@ -16,6 +16,11 @@ brew "zsh"
 brew "zsh-autosuggestions"
 brew "zsh-syntax-highlighting"
 
+# KUBERNETES
+brew "azure-cli"
+brew "k9s"
+brew "kubectx"
+
 # COMMS
 cask "microsoft-teams"
 cask "microsoft-outlook"

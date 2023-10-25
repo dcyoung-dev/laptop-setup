@@ -1,0 +1,10 @@
+#!/bin/sh
+
+# Ask for password before running anything
+sudo -v
+
+az login
+
+az account show
+
+az account set --subscription "juniperdevelopment"
