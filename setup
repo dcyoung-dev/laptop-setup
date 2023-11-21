@@ -7,4 +7,4 @@ curl https://raw.githubusercontent.com/dcyoung-dev/laptop-setup/main/laptop_loca
 
 curl -s https://raw.githubusercontent.com/dcyoung-dev/laptop/main/mac | sh 2>&1 | tee ~/laptop.log
 
-curl -s https://raw.githubusercontent.com/dcyoung-dev/mac-setup/master/config/macos.sh | sh 2>&1 | tee ~/laptop_config.log
+# curl -s https://raw.githubusercontent.com/dcyoung-dev/mac-setup/master/config/macos.sh | sh 2>&1 | tee ~/laptop_config.log
