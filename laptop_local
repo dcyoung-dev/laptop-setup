@@ -17,13 +17,14 @@ brew "zsh-autosuggestions"
 brew "zsh-syntax-highlighting"
 
 # COMMS
-cask "microsoft-teams"
+# cask "microsoft-teams"
 cask "tuple"
-cask "zoom"
+# cask "zoom"
 
 # BROWSERS
 cask "firefox"
 cask "google-chrome"
+cask "arc"
 
 # FONTS
 cask "font-fira-code"
@@ -35,16 +36,16 @@ cask "visual-studio-code"
 
 # PRODUCTIVITY
 cask "meetingbar"
-cask "notion"
+# cask "notion"
 cask "obsidian"
 
 # UTILS
 cask "1password"
 cask "adobe-acrobat-reader"
-cask "alfred"
+cask "warp"
 cask "caffeine"
 cask "grammarly"
-cask "krisp"
+# cask "krisp"
 cask "ngrok"
 cask "rectangle"
 cask "rocket"
