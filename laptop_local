@@ -50,7 +50,7 @@ cask "ngrok"
 cask "rectangle"
 cask "rocket"
 cask "spotify"
-cask "suspicious-package"
+# cask "suspicious-package"
 cask "the-unarchiver"
 EOF
 
