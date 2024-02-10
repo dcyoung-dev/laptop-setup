@@ -8,7 +8,7 @@ tap "homebrew/services"
 brew "ffmpeg"
 brew "jq"
 brew "neovim"
-brew "postgresql", restart_service: true
+brew "postgresql@16", restart_service: true
 brew "redis", restart_service: true
 brew "shellcheck"
 brew "ssh-copy-id"
@@ -35,7 +35,7 @@ cask "jetbrains-toolbox"
 cask "visual-studio-code"
 
 # PRODUCTIVITY
-cask "meetingbar"
+# cask "meetingbar"
 # cask "notion"
 cask "obsidian"
 
