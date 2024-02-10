@@ -38,6 +38,7 @@ cask "visual-studio-code"
 # cask "meetingbar"
 # cask "notion"
 cask "obsidian"
+cask "readdle-spark"
 
 # UTILS
 cask "1password"
