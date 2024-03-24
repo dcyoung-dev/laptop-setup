@@ -16,6 +16,9 @@ brew "zsh"
 brew "zsh-autosuggestions"
 brew "zsh-syntax-highlighting"
 
+# CLI Tools
+brew "flyctl" # fly.io CLI tool
+
 # COMMS
 # cask "microsoft-teams"
 cask "tuple"
